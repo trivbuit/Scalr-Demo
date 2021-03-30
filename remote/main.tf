@@ -32,7 +32,7 @@ module "ec2-instance-trmodule" {
   count = 3
 
   ami           = "ami-0f86a70488991335e"
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
 
   key_name = "trbvm"
 }
