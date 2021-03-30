@@ -21,7 +21,7 @@ module "ec2-instance-trmodule" {
   source  = "trivbuit.scalr.io/env-tct37d1oddo7u4g/ec2-instance-trmodule/aws"
   version = "1.0.4"
 
-  count = 1
+  count = 2
 
   ami           = "ami-0f86a70488991335e"
   instance_type = "t2.micro"
