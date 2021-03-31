@@ -16,5 +16,5 @@ resource "aws_instance" "template_0module" {
 }
 
 output "login" {
-  value = aws_instance.web.public_ip
+  value = aws_instance.template_0module.public_ip
 }
