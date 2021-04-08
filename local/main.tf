@@ -1,16 +1,16 @@
 
 # Configure the AWS Provider
 provider "aws" {
-  region     = "ap-southeast-1"
+  region = "ap-southeast-1"
 }
 
 terraform {
   backend "remote" {
-    hostname = "trivbuit.scalr.io"
+    hostname     = "trivbuit.scalr.io"
     organization = "env-tct37d1oddo7u4g"
 
     workspaces {
-      name = "Demo_Local_2_Scalr"
+      name = "02"
     }
   }
 }
